@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+.form-container {
+   width: 500px;
+   height: 600px;
+
+   margin: 30px auto;
+   border: 1px solid #95A0A7;
+   border-radius: 8px;
+   box-shadow: #FFE0B3 -8px 5px;
+}
+
+
+.form-control {
+   margin-left: 35px;
+   margin-bottom: 30px;
+}
+
+.form-title {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 42px;
+   /* identical to box height */
+   text-align: center;
+   letter-spacing: 0.0025em;
+}
+
+
+.form-control label {
+   display: block;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.0015em;
+   margin-bottom: 10px;
+}
+
+.form-control input {
+   width: 415px;
+   height: 55px;
+
+   border: 1px solid #95A0A7;
+   border-radius: 5px;
+   font-size: 1.2rem;
+   padding-left: 10px;
+}
+
+.btn-submit {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 25px;
+   letter-spacing: 0.0015em;
+   border: none;
+   color: #0E161A;
+}
+
+.btn-submit:hover {
+   background-color: #330033;
+   color: white;
+}
+
+.account-or-not {
+   margin-left: 35px;
+   font-size: 21px;
+}
+
+.text-error {
+   color: rgb(209, 58, 58);
+
+}
+
+.text-success {
+   color: green;
+
+}
